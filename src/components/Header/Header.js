@@ -22,7 +22,14 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20px",
+          }}
+        >
           <BiNetworkChart size="2.5rem" /> <Span>James Midzi</Span>
         </a>
       </Link>
