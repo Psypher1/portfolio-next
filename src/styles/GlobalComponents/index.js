@@ -26,7 +26,7 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 700;
-  font-size: ${(props) => (props.main ? "65px" : "56px")};
+  font-size: ${(props) => (props.main ? "4rem" : "3.5rem")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
   max-width: 100%;
@@ -60,8 +60,8 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 1.6;
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
@@ -90,7 +90,7 @@ export const SectionDivider = styled.div`
       ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
       : "linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"};
 
-  margin: ${(props) => (props.divider ? "4rem 0" : "")};
+  margin: ${(props) => (props.divider ? "2rem 0" : "")};
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
