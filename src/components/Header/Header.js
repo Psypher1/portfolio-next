@@ -36,18 +36,19 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
-      <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#skills">
+          <NavLink>Skills</NavLink>
+        </Link>
+      </li>
+
+      <li>
+        <Link href="#about">
+          <NavLink>About</NavLink>
         </Link>
       </li>
     </Div2>

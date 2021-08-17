@@ -15,9 +15,9 @@ import {
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section id="tech">
+  <Section id="skills">
     <SectionDivider />
-    <SectionTitle main>Technologies</SectionTitle>
+    <SectionTitle main>Skills</SectionTitle>
     <SectionText>
       I can converse in a wide range of languages. From Python, Javascript and
       C++; to English, French and Russian.

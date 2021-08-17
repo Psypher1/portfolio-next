@@ -66,7 +66,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionDivider />
-      <SectionTitle main>Timeline</SectionTitle>
+      <SectionTitle main>About Me</SectionTitle>
       <SectionText>
         I have had an interesting journey so far and I am excited for the new
         experiences to come
