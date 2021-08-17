@@ -26,8 +26,8 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 700;
-  font-size: ${(props) => (props.main ? "4rem" : "3.5rem")};
-  line-height: ${(props) => (props.main ? "72px" : "56px")};
+  font-size: ${(props) => (props.main ? "3.5rem" : "3rem")};
+  line-height: ${(props) => (props.main ? "4.5rem" : "3.5rem")};
   width: max-content;
   max-width: 100%;
   background: linear-gradient(
@@ -38,7 +38,7 @@ export const SectionTitle = styled.h2`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
-  padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
+  padding: ${(props) => (props.main ? "3.625rem 0 1rem" : "0")};
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: ${(props) => (props.main ? "56px" : "48px")};
