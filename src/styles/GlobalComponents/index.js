@@ -26,7 +26,7 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 700;
-  font-size: ${(props) => (props.main ? "3.5rem" : "3rem")};
+  font-size: ${(props) => (props.main ? "3.7rem" : "3rem")};
   line-height: ${(props) => (props.main ? "4.5rem" : "3.5rem")};
   width: max-content;
   max-width: 100%;
