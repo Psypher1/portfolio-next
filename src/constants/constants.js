@@ -30,28 +30,39 @@ export const projects = [
     id: 2,
   },
   {
+    title: "Task App with Users",
+    description:
+      "This implements user creating, filtering of task by user and searchin of tasks. No live version is available",
+    image: "/images/tasks.png",
+    tags: ["Python", "Django"],
+    source: "https://github.com/Psypher1/django-todo-with-users",
+    visit: "https://github.com/Psypher1/",
+    id: 3,
+  },
+  {
     title: "Meetups App",
     description:
-      "An app that allows addding of various meetups as well as adding and removing meetups from favourites. This app is not live",
+      "An app that allows addding of various meetups as well as adding and removing meetups from favourites. No live version is available",
     image: "/images/events.png",
     tags: ["React", "Firebase"],
     source: "https://github.com/Psypher1/react-meetup-events",
     visit: "https://github.com/Psypher1/",
-    id: 3,
+    id: 4,
   },
 ];
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2018, text: "Instructed a student for exams" },
+  { year: 2019, text: "Tutored a class for languages studies" },
+  { year: 2019, text: "Shared my projects with the world" },
+  { year: 2020, text: "Did freelance work on Upwork" },
+  { year: 2021, text: "Started working with TYPO3" },
 ];
 
 export const AchievementsData = [
-  { number: 20, text: "Open Source Projects" },
+  { number: 15, text: "Projects" },
   { number: 10, text: "Students" },
-  { number: 1900, text: "Github Followers" },
-  { number: 5000, text: "Github Stars" },
+  { number: 200, text: "Wordpress Followers" },
+  { number: 3000, text: "Lines of code" },
 ];

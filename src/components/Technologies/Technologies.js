@@ -1,5 +1,7 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact } from "react-icons/di";
+import { GrLanguage } from "react-icons/gr";
+import { FaLanguage } from "react-icons/fa";
 import {
   Section,
   SectionDivider,
@@ -24,12 +26,13 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            Experience with: <br />
-            Reactjs/Nextjs
+            HTML5 | CSS3 | Javascript
+            <br />
+            Reactjs | Nextjs <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,13 +41,14 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Backend-end</ListTitle>
           <ListParagraph>
-            Experience with: <br />
-            Sql <br /> MongoDB
+            Python | Django <br />
+            Sql <br />
+            MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <FaLanguage size="3rem" />
         <ListContainer>
           <ListTitle>Spoken Languages</ListTitle>
           <ListParagraph>
