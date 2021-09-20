@@ -38,15 +38,20 @@ const Footer = () => {
           <Slogan> À Petits Pas J'irai Très Loin</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/psypher1" target="_blank">
+          <SocialIcons href="https://github.com/psypher1" target="_blank" rel="noreferrer noopener">
             <AiFillGithub size="2.7rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com/psypher1" target="_blank">
+          <SocialIcons
+            href="https://twitter.com/psypher1"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <AiFillTwitterCircle size="2.7rem" />
           </SocialIcons>
           <SocialIcons
             href="https://linkedin.com/in/jamesmidzi"
             target="_blank"
+            rel="noreferrer noopener"
           >
             <AiFillLinkedin size="2.7rem" />
           </SocialIcons>
