@@ -20,8 +20,8 @@ import {
 
 const Header = () => (
   <Container>
-    <Div1 style={{ marginLeft: "10px" }}>
-      <Link href="/">
+    <Div1 style={{ paddingLeft: "10px" }}>
+      <Link href="#">
         <a
           style={{
             display: "flex",
