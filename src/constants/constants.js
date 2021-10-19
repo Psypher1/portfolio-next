@@ -40,13 +40,13 @@ export const projects = [
     id: 3,
   },
   {
-    title: "Meetups App",
+    title: "Comexposed Events",
     description:
-      "An app that allows addding of various meetups as well as adding and removing meetups from favourites. No live version is available",
+      "This app lists out a number of events. Allows adding of events. This is the current version. Refactoring is still in progress",
     image: "/images/events.png",
-    tags: ["React", "Firebase"],
-    source: "https://github.com/Psypher1/react-meetup-events",
-    visit: "https://github.com/Psypher1/",
+    tags: ["Nextjs", "MongoDB", "TailwindCss"],
+    source: "https://github.com/Psypher1/comexposed-events",
+    visit: "https://comexposed-events.vercel.app/",
     id: 4,
   },
 ];
