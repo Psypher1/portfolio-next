@@ -43,7 +43,7 @@ export const projects = [
     title: "Comexposed Events",
     description:
       "This app lists out a number of events. Allows adding of events. This is the current version. Refactoring is still in progress",
-    image: "/images/events.png",
+    image: "/images/comexposed.png",
     tags: ["Nextjs", "MongoDB", "TailwindCss"],
     source: "https://github.com/Psypher1/comexposed-events",
     visit: "https://comexposed-events.vercel.app/",
