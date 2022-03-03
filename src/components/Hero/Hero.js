@@ -20,7 +20,7 @@ const Hero = () => (
         acquire each day
       </SectionText>
       <Button onClick={() => (window.location = "mailto:jamesmidzi@gmail.com")}>
-        Learn more
+        Contact Me
       </Button>
     </LeftSection>
   </Section>

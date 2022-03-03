@@ -1,5 +1,35 @@
 export const projects = [
   {
+    title: "The Language Hub",
+    description:
+      "A language reference book. This was a submission for a hackathon",
+    image: "/images/tlh.png",
+    tags: ["Next.js", "TailwindCSS", "Markdown"],
+    source: "https://github.com/Psypher1/the-language-hub",
+    visit: "https://thelanguagehub.netlify.app/",
+    id: 0,
+  },
+  {
+    title: "Monoqo Designs",
+    description:
+      "The site for a branding company. This was built to client's specifications. They came with a design, I brought it to life.",
+    image: "/images/monoqo.png",
+    tags: ["HTML5", , "SASS", "JavaScript"],
+    source: "https://github.com/Psypher1/",
+    visit: "https://monoqo.netlify.app/",
+    id: 1,
+  },
+  {
+    title: "Comexposed Events",
+    description:
+      "This app lists out a number of events. Allows adding of events. This is the current version. Refactoring is still in progress",
+    image: "/images/comexposed.png",
+    tags: ["Nextjs", "MongoDB", "TailwindCSS"],
+    source: "https://github.com/Psypher1/comexposed-events",
+    visit: "https://comexposed-events.vercel.app/",
+    id: 2,
+  },
+  {
     title: "Chouette Hosting",
     description:
       "The frontend for a French Hosting company. A decision for the backend is still to be made",
@@ -7,7 +37,7 @@ export const projects = [
     tags: ["HTML5", "SASS", "Javascript"],
     source: "https://github.com/Psypher1/chouette-website",
     visit: "https://chouettehosting.netlify.app/",
-    id: 0,
+    id: 3,
   },
   {
     title: "Marketing Republik",
@@ -17,18 +47,9 @@ export const projects = [
     tags: ["HTML5", , "SASS", "JavaScript"],
     source: "https://github.com/Psypher1/marketing-republik",
     visit: "https://marketingrepublik.netlify.app/",
-    id: 1,
+    id: 4,
   },
-  {
-    title: "Monoqo Designs",
-    description:
-      "The site for a branding company. This was built to client's specifications. As such I cannot share the source.",
-    image: "/images/monoqo.png",
-    tags: ["HTML5", , "SASS", "JavaScript"],
-    source: "https://github.com/Psypher1/",
-    visit: "https://monoqo.netlify.app/",
-    id: 2,
-  },
+
   {
     title: "Task App with Users",
     description:
@@ -37,17 +58,7 @@ export const projects = [
     tags: ["Python", "Django"],
     source: "https://github.com/Psypher1/django-todo-with-users",
     visit: "https://github.com/Psypher1/",
-    id: 3,
-  },
-  {
-    title: "Comexposed Events",
-    description:
-      "This app lists out a number of events. Allows adding of events. This is the current version. Refactoring is still in progress",
-    image: "/images/comexposed.png",
-    tags: ["Nextjs", "MongoDB", "TailwindCss"],
-    source: "https://github.com/Psypher1/comexposed-events",
-    visit: "https://comexposed-events.vercel.app/",
-    id: 4,
+    id: 5,
   },
 ];
 

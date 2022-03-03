@@ -17,8 +17,9 @@ export const GridContainer = styled.section`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    padding-bottom: 0;
+    padding: 2rem 2.5rem;
+
+    margin-bottom: 2rem;
   }
 `;
 export const BlogCard = styled.div`
@@ -27,8 +28,10 @@ export const BlogCard = styled.div`
   text-align: center;
   width: 400px;
   padding: 10px;
+  margin-bottom: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    margin-bottom: 2rem;
   }
 `;
 export const TitleContent = styled.div`
