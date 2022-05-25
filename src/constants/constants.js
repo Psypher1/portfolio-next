@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "PRAEY",
+    description:
+      "The personal website for Tapiwanashe - a writer and film maker. Made to better reflect her.",
+    image: "/images/praey.png",
+    tags: ["Next.js", "Contentful", "TailwindCSS"],
+    source: "https://github.com/Psypher1/",
+    visit: "https://tapiwanashe.com/",
+    id: 0,
+  },
+  {
     title: "The Language Hub",
     description:
       "A language reference book. This was a submission for a hackathon",
@@ -7,7 +17,7 @@ export const projects = [
     tags: ["Next.js", "TailwindCSS", "Markdown"],
     source: "https://github.com/Psypher1/the-language-hub",
     visit: "https://thelanguagehub.netlify.app/",
-    id: 0,
+    id: 1,
   },
   {
     title: "Monoqo Designs",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["HTML5", , "SASS", "JavaScript"],
     source: "https://github.com/Psypher1/",
     visit: "https://monoqo.netlify.app/",
-    id: 1,
+    id: 2,
   },
   {
     title: "Comexposed Events",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["Nextjs", "MongoDB", "TailwindCSS"],
     source: "https://github.com/Psypher1/comexposed-events",
     visit: "https://comexposed-events.vercel.app/",
-    id: 2,
+    id: 3,
   },
   {
     title: "Chouette Hosting",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["HTML5", "SASS", "Javascript"],
     source: "https://github.com/Psypher1/chouette-website",
     visit: "https://chouettehosting.netlify.app/",
-    id: 3,
+    id: 4,
   },
   {
     title: "Marketing Republik",
@@ -47,7 +57,7 @@ export const projects = [
     tags: ["HTML5", , "SASS", "JavaScript"],
     source: "https://github.com/Psypher1/marketing-republik",
     visit: "https://marketingrepublik.netlify.app/",
-    id: 4,
+    id: 5,
   },
 
   {
@@ -58,7 +68,7 @@ export const projects = [
     tags: ["Python", "Django"],
     source: "https://github.com/Psypher1/django-todo-with-users",
     visit: "https://github.com/Psypher1/",
-    id: 5,
+    id: 6,
   },
 ];
 
@@ -69,11 +79,12 @@ export const TimeLineData = [
   { year: 2019, text: "Shared my projects with the world" },
   { year: 2020, text: "Did freelance work on Upwork" },
   { year: 2021, text: "Started working with TYPO3" },
+  { year: 2022, text: "Began writing articles for open source projects" },
 ];
 
 export const AchievementsData = [
-  { number: 20, text: "Projects" },
+  { number: 40, text: "Projects" },
   { number: 10, text: "Students" },
-  { number: 200, text: "Wordpress Followers" },
-  { number: 3000, text: "Lines of code" },
+  { number: 200, text: "Blog views" },
+  { number: 5000, text: "Lines of code" },
 ];

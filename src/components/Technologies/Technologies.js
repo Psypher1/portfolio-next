@@ -30,9 +30,10 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            HTML5 | CSS3 | Javascript
+            HTML | CSS | SASS
             <br />
-            Reactjs | Nextjs <br />
+            Javascript | Reactjs | Nextjs <br />
+            Eleventy
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +44,10 @@ const Technologies = () => (
           <ListParagraph>
             Python | Django <br />
             Sql <br />
-            MongoDB
+            MongoDB <br />
+            Sanity <br />
+            Contentful <br />
+            GraphCMS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -56,6 +60,7 @@ const Technologies = () => (
             <br />
             French <br />
             Russian <br />
+            Swahili
           </ListParagraph>
         </ListContainer>
       </ListItem>
