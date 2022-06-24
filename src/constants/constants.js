@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "The Language Hub",
     description:
-      "A language reference book. This was a submission for a hackathon",
+      "A language reference book. This was a submission for a hackathon". Taking away the hassle of having to search through a bunch"
     image: "/images/tlh.png",
     tags: ["Next.js", "TailwindCSS", "Markdown"],
     source: "https://github.com/Psypher1/the-language-hub",
